@@ -1,8 +1,3 @@
-# MIPS32_pipelined_5-stage_processor
-Here’s a professional and clean `README.md` write-up you can use for your GitHub repository showcasing your **MIPS32 5-Stage Pipelined Processor**. You can copy, paste, and customize it further as needed:
-
----
-
 # 🧠 MIPS32 5-Stage Pipelined Processor
 
 This project implements a 5-stage pipelined MIPS32 processor in Verilog HDL, supporting Register-type (R-type), Immediate-type (I-type), and Jump-type (J-type) instructions. The processor adheres to the classic 5-stage MIPS pipeline architecture:
@@ -41,33 +36,6 @@ This project implements a 5-stage pipelined MIPS32 processor in Verilog HDL, sup
 * `j`, `jal`
 
 ---
-
-## 🚀 How to Run (Simulation)
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/mips32-pipelined-processor.git
-   cd mips32-pipelined-processor
-   ```
-
-2. Open your preferred simulation tool (ModelSim, Vivado, Icarus Verilog, etc.)
-
-3. Compile and simulate using the top module:
-
-   ```bash
-   iverilog -o mips32_testbench testbench/tb_mips32.v src/*.v
-   vvp mips32_testbench
-   ```
-
-4. View waveform (optional):
-
-   ```bash
-   gtkwave dump.vcd
-   ```
-
----
-
 ## 📌 Future Improvements
 
 * Full forwarding unit to eliminate all stalls
