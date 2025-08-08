@@ -50,9 +50,6 @@ This project implements a 5-stage pipelined MIPS32 processor in Verilog HDL, sup
 
 
 ## 🙌 Acknowledgements
-
+Hardware Modeling using Verilog” by Prof. Indranil Sengupta, IIT Kharagpur
+The reference was invaluable in understanding MIPS pipelining and RTL-level hardware modeling.
 Special thanks to my mentors, academic resources, and MIPS documentation.
-
----
-
-Let me know if you'd like this in PDF or DOCX format for additional documentation or college reports.
