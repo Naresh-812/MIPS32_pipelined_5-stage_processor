@@ -1,6 +1,8 @@
 # 🧠 MIPS32 5-Stage Pipelined Processor
 
-This project implements a 5-stage pipelined MIPS32 processor in Verilog HDL, supporting Register-type (R-type), Immediate-type (I-type), and Jump-type (J-type) instructions. The processor adheres to the classic 5-stage MIPS pipeline architecture:
+This project implements a 5-stage pipelined MIPS32 processor in Verilog HDL, supporting Register-type (R-type), Immediate-type (I-type), and Jump-type (J-type) instructions. The processor adheres to the classic 5-stage MIPS pipeline architecture.The design was inspired by the techniques and methodologies taught in the course "Hardware Modeling using Verilog" by Prof. Indranil Sengupta (IIT Kharagpur).
+
+
 
 1. **IF** – Instruction Fetch
 2. **ID** – Instruction Decode & Register Fetch
